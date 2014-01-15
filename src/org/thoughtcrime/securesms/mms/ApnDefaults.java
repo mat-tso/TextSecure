@@ -53,6 +53,11 @@ public class ApnDefaults {
             // UK giffgaff -Tested
             put("23410", new MmsConnectionParameters("http://mmsc.mediamessaging.co.uk:8002", "193.113.200.195", "8080"));
 
+            // FR orange - Tested
+            put("20800", new MmsConnectionParameters("http://mms.orange.fr/", "192.168.10.200", "8080"));
+            put("20801", new MmsConnectionParameters("http://mms.orange.fr/", "192.168.10.200", "8080"));
+            put("20802", new MmsConnectionParameters("http://mms.orange.fr/", "192.168.10.200", "8080"));
+
           }};
 
   public static MmsConnectionParameters getMmsConnectionParameters(Context context) {
